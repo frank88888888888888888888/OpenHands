@@ -10,7 +10,7 @@ from types import TracebackType
 from typing import Any, Literal, Mapping, MutableMapping, TextIO
 
 import litellm
-from pythonjsonlogger.json import JsonFormatter
+from pythonjsonlogger.jsonlogger import JsonFormatter
 from termcolor import colored
 
 LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO').upper()
